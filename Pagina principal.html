@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Índice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f7e6; /* Verde pastel */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #5cb85c; /* Verde pastel */
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+        }
+        .container {
+            padding: 20px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .button-container .button {
+            text-align: center;
+        }
+        .button-container img {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            border: 2px solid #cce6cc;
+            border-radius: 10px;
+        }
+        .button-container span {
+            display: block;
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #5cb85c;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #5cb85c; /* Verde pastel */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Página Índice
+    </header>
+    <div class="container">
+        <div class="button-container">
+            <div class="button">
+                <a href="HARDWARE DE UNA PC.html" target="_blank">
+                    <img src="img/hardware-01_01_m.png" alt="Botón 1">
+                </a>
+                <span>HARDWARE DE UNA PC</span>
+            </div>
+            <div class="button">
+                <a href="DISEÑO GRAFICO EN LA CREACION WEB.html" target="_blank">
+                    <img src="img/diseno-grafico-elearning.jpeg" alt="Botón 2">
+                </a>
+                <span>DISEÑO GRAFICO EN LA CREACION WEB</span>
+            </div>
+            <div class="button">
+                <a href="formulario.html">
+                    <img src="img/Fromulario.png" alt="Formulario">
+                </a>
+                <span>Formulario</span>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Video</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                         <iframe src="https://www.youtube.com/embed/VhCaTS7jhAM?si=O-G2ftY1Xaffka-1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </td>
+                    <td>Este video describe de forma breve el funcionamiento de cada compoente de un Pc.</td>
+                </tr>
+                <tr>
+                    <td>
+                       <iframe src="https://www.youtube.com/embed/-ut593BSlCk?si=cJoUKSxgneu9vui_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </td>
+                    <td>Este video describe de forma breve la importancia de saber aplicar el diseño grafico en la creacion .</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+      
