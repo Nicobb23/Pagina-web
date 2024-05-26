@@ -1,0 +1,54 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f7e6; /* Verde pastel */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #cce6cc; /* Verde pastel */
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+        }
+        .container {
+            padding: 20px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .button-container .button {
+            text-align: center;
+        }
+        .button-container img {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            border: 2px solid #cce6cc;
+            border-radius: 10px;
+        }
+        .button-container span {
+            display: block;
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #cce6cc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #d9ead9; /* Verde pastel */
+        }

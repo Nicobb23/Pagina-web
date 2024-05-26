@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  HARDWARE DE UN PC </title>
+    <style>
+        body {background: #F2FF00;}
+    </style>
+
+</head>
+
+<body>
+   <center> <h1><strong> HARDWARE DE UN PC </strong></h1> </center>
+   <HR>
+    <h2>¿QUE SON?</h2> 
+   
+	<p> El hardware de un PC son todos los componentes físicos tangibles de una computadora, como la CPU que realiza cálculos, la memoria RAM que almacena datos temporalmente, la placa madre que conecta todos los componentes, la tarjeta gráfica que procesa imágenes, entre otros. Estas partes forman la estructura física de la computadora y permiten su funcionamiento. </p>
+  
+<HR> 
+<h2>Algunos componentes son:</h2>
+	<ul>
+        	<li> <b>Fuente de poder: </b> Proporciona la electricidad necesaria a cada componente</li>
+		<li> <b>Unidad óptica: </b> Permite leer y grabar información de discos compactos en diferentes formatos</li>
+		<li> <b>Procesador: </b> Coordina y controla el funcionamiento de todos los componentes</li>
+		<li> <b>Sistema de enfriamiento: </b> Evita que el procesador se dañe por sobrecalentamiento</li>
+		<li> <b>Tarjeta madre: </b> Es la base en la que se conectan todos los componentes</li>
+		<li> <b>Memoria RAM: </b> Almacena temporalmente la información que está siendo manipulada para apoyar al procesador</li>
+		<li> <b>Unidad de almacenamiento: </b> Guardan la información del sistema operativo y los archivos de los usuarios, también conocidos como discos duros</li>
+		<li> <b>Tarjeta de expansión: </b> Ofrecen poder de procesamiento adicional dedicado a tareas especificas <li> 
+         </ul>
+
+    <HR>
+   <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Componentes de Hardware</h2>
+<center>
+<table>
+    <tr>
+        <th>Componente</th>
+        <th>Descripción</th>
+        <th>Función</th>
+    </tr>
+    <tr>
+        <td>Fuente de Poder</td>
+        <td>Convierte la corriente eléctrica para alimentar los componentes de la computadora.</td>
+        <td>Suministrar energía eléctrica a todos los componentes.</td>
+    </tr>
+    <tr>
+        <td>Unidad Óptica</td>
+        <td>Lector de CD/DVD/Blu-ray</td>
+        <td>Lee y/o graba datos en discos ópticos.</td>
+    </tr>
+    <tr>
+        <td>Procesador</td>
+        <td>Unidad central de procesamiento que ejecuta instrucciones y realiza cálculos.</td>
+        <td>Ejecutar programas y procesar datos.</td>
+    </tr>
+    <tr>
+        <td>Sistema de Enfriamiento</td>
+        <td>Ventiladores y disipadores de calor para mantener los componentes frescos.</td>
+        <td>Evitar el sobrecalentamiento de la CPU y otros componentes.</td>
+    </tr>
+    <tr>
+        <td>Tarjeta Madre</td>
+        <td>Placa de circuito que conecta todos los componentes de la computadora.</td>
+        <td>Proporcionar comunicación entre los componentes.</td>
+    </tr>
+    <tr>
+        <td>Memoria RAM</td>
+        <td>Memoria de acceso aleatorio que almacena datos temporalmente para el procesador.</td>
+        <td>Almacenar datos y programas en uso para un acceso rápido.</td>
+    </tr>
+    <tr>
+        <td>Unidad de Almacenamiento</td>
+        <td>Disco duro (HDD) o unidad de estado sólido (SSD) que almacena permanentemente datos y programas.</td>
+        <td>Almacenar datos y programas de forma permanente.</td>
+    </tr>
+    <tr>
+        <td>Tarjeta de Expansión</td>
+        <td>Permite la conexión de dispositivos adicionales, como tarjetas de sonido, de red, etc.</td>
+        <td>Ampliar las capacidades de la computadora agregando nuevos dispositivos.</td>
+    </tr>
+</table>
+</center>
+  <HR> 
+	<h2>Funcionamiento del Hardware en un PC</h2>
+    	<ol>
+
+        	<li><strong>Encendido:</strong> La electricidad activa la placa madre y se realiza un autodiagnóstico.</li>
+    		<li><strong>Carga del sistema operativo:</strong> El BIOS/UEFI carga el sistema operativo en la memoria RAM.</li>
+    		<li><strong>Interacción con el usuario:</strong> Se muestra el escritorio o la pantalla de inicio de sesión.</li>
+    		<li><strong>Ejecución de aplicaciones:</strong> La CPU ejecuta instrucciones para las aplicaciones.</li>
+    		<li><strong>Interacción con periféricos:</strong> Se procesan las entradas y salidas de dispositivos como el teclado y el ratón.</li>
+    		<li><strong>Administración de energía y enfriamiento:</strong> La fuente de poder suministra energía mientras el sistema de enfriamiento mantiene las temperaturas bajo control.</li>
+    		<li><strong>Apagado o reinicio:</strong> Se finalizan las tareas, se guardan los datos y se apaga o reinicia según lo indicado por el usuario.</li>
+     
+         </ol>
+
+<center><img src="img/logica_funcionamiento.gif" alt="Funcionamiento de un pc.gif" width="300"></center>
+    
+<HR>
+
+  <h2>Que tanto sabes de Hardware</h1>
+    
+	<form action="#" method="post">
+ 
+        <label for="calificacion">Calificación (del 1 al 10):</label><br>
+        <input type="number" id="calificacion" name="calificacion" min="1" max="10"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+<HR>
+<a href="Pagina principal.html"> <img src="img/índice 2.png" alt="Funcionamiento de un pc.gif" width="100">
+
+</body>
+</html>
